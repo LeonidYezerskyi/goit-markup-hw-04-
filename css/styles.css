@@ -350,6 +350,30 @@ margin-left: 30px;
     text-align: center;
 }
 
+.social-link-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.members-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    fill: #AFB1B8;
+    margin-top: 16px;
+}
+ 
+.members-link:hover,
+.members-link:focus {
+    background-color: var(--acent-color);
+    fill: var(--hero-text-color)
+}
+
 /* footer */
 .footer {
     background-color: #2F303A;
