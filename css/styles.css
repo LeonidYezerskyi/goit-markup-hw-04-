@@ -327,6 +327,13 @@ margin-left: 30px;
     gap: 30px;
 }
 
+.team-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .member-name {
     margin-bottom: 10px;
 }
@@ -495,6 +502,7 @@ width: 44px;
 .network-link:hover,
 .network-link:focus {
     background-color: var(--acent-color);
+}
 
 /* portfolio.html */
 /* filter */
@@ -528,6 +536,13 @@ width: 44px;
     border-radius: 4px;
 }
 
+.button:hover,
+.button:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 /* Examples */
 .works {
     display: flex;
@@ -537,8 +552,15 @@ width: 44px;
 
 }
 
-.works .link {
+.work-link {
     text-decoration: none;
+}
+
+.works-item:hover {
+    box-shadow: 
+    0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .content-border {
@@ -563,3 +585,4 @@ width: 44px;
     font-size: 16px;
     line-height: 1.88;
 }
+
