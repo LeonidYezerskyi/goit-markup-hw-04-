@@ -374,6 +374,35 @@ margin-left: 30px;
     fill: var(--hero-text-color)
 }
 
+/* clients */
+.clients {
+    background-color: var(--hero-text-color);
+}
+
+.clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.company {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.company:hover,
+.company:focus {
+    fill: var(--acent-color);
+    border: 1px solid var(--acent-color);
+}
+
 /* footer */
 .footer {
     background-color: #2F303A;
@@ -383,12 +412,13 @@ margin-left: 30px;
     margin-right: auto;
 }
 
-.logo-link {
+.logo-start {
     color: var(--acent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
    }
 
 .logo-footer {
@@ -400,8 +430,14 @@ margin-left: 30px;
     }
 
 /* address */
+
 .address {
     margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: baseline;
 }
 
 .location {
@@ -431,6 +467,34 @@ margin-left: 30px;
 .address-title:focus {
     color: var(--acent-color);
 }
+
+/* join */
+.join {
+    margin-left: 70px;
+}
+.join-title {
+    color: var(--hero-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.network-link {
+width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    fill: var(--hero-text-color);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.network-link:hover,
+.network-link:focus {
+    background-color: var(--acent-color);
 
 /* portfolio.html */
 /* filter */
