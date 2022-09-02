@@ -199,7 +199,10 @@ margin-left: 50px;
 /* main */
 .hero {
     background-color: #2F303A;
-    height: 600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heroback.jpg);
+    background-size: 1600px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -247,6 +250,18 @@ margin-left: 50px;
 .benefit-list {
     display: flex;
     gap: 30px;
+}
+
+.svg-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--filter-background-color);
+    background-position: center;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
 }
 
 .section-title {
