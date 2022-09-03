@@ -328,6 +328,7 @@ margin-left: 30px;
 }
 
 .team-item {
+    background-color: var(--hero-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -393,7 +394,7 @@ margin-left: 30px;
     gap: 30px;
 }
 
-.company {
+.company-link {
     width: 170px;
     height: 92px;
     display: flex;
@@ -404,8 +405,8 @@ margin-left: 30px;
     border-radius: 4px;
 }
 
-.company:hover,
-.company:focus {
+.company-link:hover,
+.company-link:focus {
     fill: var(--acent-color);
     border: 1px solid var(--acent-color);
 }
